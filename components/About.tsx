@@ -29,14 +29,14 @@ Hundreds of delegates from all over India/Kerala are expected to participate in 
         </div>
         <div className="flex m-5 flex-1 flex-col">
           <h2 className="font-palanquin text-4xl mb-10 font-bold lg:max-w-lg lg:text-start ">
-            About Dhyuthi
+            About SCTMUN
           </h2>
           <p className="mt-4 lg:max-w-lg font-montserrat text-slate-gray text-lg leading-7 text-justify text-[#bbbcbc]">
             {about_event}
           </p>
           <div className="flex-1 flex justify-center items-center ">
             <h2 className="font-palanquin text-4xl mb-10 font-bold bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent lg:max-w-lg">
-              October 04 | 05 | 06
+              February 07 | 08 | 09
             </h2>
           </div>
         </div>

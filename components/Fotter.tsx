@@ -24,7 +24,7 @@ export const Fotter = () => {
             />
 
             <button className="text-2xl font-semibold leading-6 bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent">
-              Dhyuthi 5.0
+              SCTMUN
             </button>
           </a>
           <div className="mt-16 text-left">
