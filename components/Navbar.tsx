@@ -20,8 +20,8 @@ export const Navbar = () => {
             offset={0}
             duration={500}
           >
-            <button className="text-2xl font-semibold leading-6 bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent">
-              Dhyuthi 5.0
+            <button className="text-2xl font-semibold leading-6 bg-gradient-to-r from-[#d3d558] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent">
+              SCTMUN
             </button>
           </Link>
         </div>
@@ -36,18 +36,11 @@ export const Navbar = () => {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <Link
-            activeClass="active"
-            to="page1"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            <button className="text-sm font-semibold leading-6 text-gray-100">
+            
+            <a className="text-sm font-semibold leading-6 text-gray-100" href="/about">
               About
-            </button>
-          </Link>
+            </a>
+          
           <Link
             activeClass="active"
             to="page2"

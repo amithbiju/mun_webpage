@@ -5,11 +5,11 @@ const Hero = () => {
     <section id="page0" className="bg-transparent pt-44">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-white">
-          Dhyuthi 5.0
+          SCTMUN
         </h1>
         <a className="inline-flex justify-between items-center mt-8 py-1 px-1 pr-4 mb-7 text-sm  rounded-full text-white bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d]">
           <span className="text-xl font-medium">
-            The flagship event of IEEE SCT SB
+            The maiden MUN of SCT College of Engineering
           </span>
         </a>
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">

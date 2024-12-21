@@ -16,8 +16,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Dhyuthi 5.0",
-  description: "Official website for Dhyuthi 5.0 IEEESCTSB",
+  title: "SCTMUN",
+  description: "Official website for SCTMUN 2025",
 };
 
 export default function RootLayout({
