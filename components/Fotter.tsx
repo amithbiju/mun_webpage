@@ -33,13 +33,13 @@ export const Fotter = () => {
             </h3>
             <div className="mt-4 flex justify-left space-x-6">
               <a
-                href="https://ieeesctsb.org/"
+                
                 className="text-white hover:text-gray-300"
               >
-                IEEE SCTSB
+                SCT MUN CLUB
               </a>
               <a
-                href="https://www.instagram.com/ieeesctsb/"
+                href="https://www.instagram.com/sct.mun/"
                 className="text-white hover:text-gray-300"
               >
                 <FaInstagram size={24} />
@@ -56,12 +56,12 @@ export const Fotter = () => {
               >
                 <FaEnvelope size={24} />
               </a>
-              <a
+            {/*}  <a
                 href="https://github.com/amithbiju/dhyuthi_5.0"
                 className="text-white hover:text-gray-300"
               >
-                <FaGithub size={24} />
-              </a>
+                <FaGithub size={24} />  
+              </a>  */}
             </div>
           </div>
           {/* <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0text-gray-400">
@@ -90,8 +90,8 @@ export const Fotter = () => {
         <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2024{" "}
-          <a href="https://flowbite.com/" className="hover:underline">
-            Dhyuthi 5.0
+          <a  className="hover:underline">
+            SCTMUN
           </a>
           . All Rights Reserved.
         </span>

@@ -12,18 +12,11 @@ export const Navbar = () => {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
           <span className="sr-only">Your Company</span>
-          <Link
-            activeClass="active"
-            to="page0"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            <button className="text-2xl font-semibold leading-6 bg-gradient-to-r from-[#d3d558] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent">
+        
+            <a className="text-2xl font-semibold leading-6 bg-gradient-to-r from-[#b0b09d] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent" href="/..">
               SCTMUN
-            </button>
-          </Link>
+            </a>
+        
         </div>
         <div className="flex lg:hidden">
           <button
@@ -50,7 +43,7 @@ export const Navbar = () => {
             duration={500}
           >
             <button className="text-sm font-semibold leading-6 text-gray-100">
-              Tracks
+              Committees
             </button>
           </Link>
           {/* <Link
@@ -77,7 +70,7 @@ export const Navbar = () => {
               Schedule
             </button>
           </Link>
-          <Link
+        {/*}  <Link
             activeClass="active"
             to="page8"
             spy={true}
@@ -88,7 +81,7 @@ export const Navbar = () => {
             <button className="text-sm font-semibold leading-6 text-gray-100">
               Gallery
             </button>
-          </Link>
+          </Link>     */}
           <Link
             activeClass="active"
             to="page6"
@@ -101,18 +94,11 @@ export const Navbar = () => {
               FAQs
             </button>
           </Link>
-          <Link
-            activeClass="active"
-            to="page5"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            <button className="text-sm font-semibold leading-6 text-gray-100">
+
+            <a className="text-sm font-semibold leading-6 text-gray-100" href="/contact">
               Contact
-            </button>
-          </Link>
+            </a>
+
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
@@ -144,7 +130,7 @@ export const Navbar = () => {
               }}
             >
               <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
-                SCTMUN
+                Dhyuthi 5.0
               </button>
             </Link>
             <button
@@ -249,11 +235,21 @@ export const Navbar = () => {
                     FAQs
                   </button>
                 </Link>
-                
-                  <a className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700" href="/contact">
+                <Link
+                  activeClass="active"
+                  to="page5"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                  }}
+                >
+                  <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
                     Contact
-                  </a>
-                
+                  </button>
+                </Link>
               </div>
               <div className="py-6">
                 <a
