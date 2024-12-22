@@ -35,10 +35,10 @@ const Venue = () => {
                 Email
               </h2>
               <a
-                href="mailto:ieeectsctsb@gmail.com"
+                href="mailto:sctmun2025@gmail.com"
                 className="text-white hover:underline"
               >
-                ieeectsctsb@gmail.com
+                sctmun2025@gmail.com
               </a>
             </div>
             <div>
@@ -46,10 +46,10 @@ const Venue = () => {
                 <span className="text-orange-500 mr-2">📞</span>
                 Call
               </h2>
-              <p className="pt-2">Nandagopan G</p>
-              <a href="tel:+917306702435"> +91 7306702435</a>
-              <p className="pt-2">Geethu S Santhosh</p>
-              <a href="tel:+918075298464"> +91 8075298464</a>
+              <p className="pt-2">Sidharth S</p>
+              <a href="tel:+919074390983">+91 9074390983</a>
+              <p className="pt-2">Durgadas D K</p>
+              <a href="tel:+917012374443">+91 7012374443</a>
             </div>
           </div>
         </div>

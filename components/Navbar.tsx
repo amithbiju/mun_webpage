@@ -34,18 +34,10 @@ export const Navbar = () => {
               About
             </a>
           
-          <Link
-            activeClass="active"
-            to="page2"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            <button className="text-sm font-semibold leading-6 text-gray-100">
+          
+            <a className="text-sm font-semibold leading-6 text-gray-100" href="/committees">
               Committees
-            </button>
-          </Link>
+            </a>
           {/* <Link
             activeClass="active"
             to="page3"
@@ -102,7 +94,7 @@ export const Navbar = () => {
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
-            href="/track"
+            href="/committees"
             className="text-sm font-semibold leading-6 text-gray-100"
           >
             Register Now<span aria-hidden="true">&rarr;</span>
@@ -130,7 +122,7 @@ export const Navbar = () => {
               }}
             >
               <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
-                Dhyuthi 5.0
+                SCTMUN
               </button>
             </Link>
             <button
@@ -253,7 +245,7 @@ export const Navbar = () => {
               </div>
               <div className="py-6">
                 <a
-                  href="/track"
+                  href="/committees"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700"
                 >
                   Register Now

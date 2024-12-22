@@ -51,7 +51,7 @@ export const Fotter = () => {
                 <FaLinkedin size={24} />
               </a>
               <a
-                href="mailto:ieeectsctsb@gmail.com"
+                href="mailto:sctmun2025@gmail.com"
                 className="text-white hover:text-gray-300"
               >
                 <FaEnvelope size={24} />
