@@ -50,18 +50,11 @@ export const Navbar = () => {
               Events
             </button>
           </Link> */}
-          <Link
-            activeClass="active"
-            to="page4"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            <button className="text-sm font-semibold leading-6 text-gray-100">
+      
+            <a className="text-sm font-semibold leading-6 text-gray-100" href="/schedule">
               Schedule
-            </button>
-          </Link>
+            </a>
+        
         {/*}  <Link
             activeClass="active"
             to="page8"

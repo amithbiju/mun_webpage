@@ -8,7 +8,7 @@ const Tracks = () => {
     <section className="bg-transparent pt-44">
       <div>
         <h2 className="mt-[-3rem] font-palanquin text-center text-5xl mb-10 font-bold bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent">
-          TRACKS
+          COMMITTEES
         </h2>
 
         <div className="max-w-[1380px] mx-auto grid lg:grid-cols-3 gap-8">
