@@ -15,7 +15,7 @@ export default function Home() {
       <Timer />
       <Tracks />
       <Event />
-      <Faqs />
+     {/* <Faqs /> */}
       <Venue />
     </div>
   );

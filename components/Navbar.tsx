@@ -67,7 +67,7 @@ export const Navbar = () => {
               Gallery
             </button>
           </Link>     */}
-          <Link
+      {/*    <Link
             activeClass="active"
             to="page6"
             spy={true}
@@ -78,7 +78,7 @@ export const Navbar = () => {
             <button className="text-sm font-semibold leading-6 text-gray-100">
               FAQs
             </button>
-          </Link>
+          </Link>              */}            
 
             <a className="text-sm font-semibold leading-6 text-gray-100" href="/contact">
               Contact
@@ -219,7 +219,7 @@ export const Navbar = () => {
                   <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
                     FAQs
                   </button>
-                </Link>
+                </Link>          
                 <Link
                   activeClass="active"
                   to="page5"

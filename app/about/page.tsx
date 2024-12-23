@@ -21,8 +21,8 @@ Hundreds of delegates from all over India/Kerala are expected to participate in 
             src={logo}
             alt=""
             loading="lazy"
-            width="350"
-            height="280"
+            width="550"
+            height="480"
             decoding="async"
             data-nimg="1"
             className=" object-contain rounded-md"

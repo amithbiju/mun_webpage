@@ -32,9 +32,9 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
 const Faqs = () => {
   const items = [
     {
-      title: "What can I expect from Dhyuthi 5.0?",
+      title: "What can I expect from SCTMUN?",
       content:
-        "Dhyuthi promises to be an invaluable opportunity for learning, networking, and innovation through hands-on experience in three distinct tracks, along with cultural events fostering creativity, thereby ensuring a well-rounded experience for participants.",
+        "SCTMUN promises to be an invaluable opportunity for learning, networking, and innovation through hands-on experience in three days, along with cultural events fostering creativity, thereby ensuring a well-rounded experience for participants.",
     },
     {
       title: "Will I get certificates for participation?",
