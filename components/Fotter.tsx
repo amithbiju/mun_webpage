@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import logo from "../assets/images/logo.png";
-import { FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
+import { FaEnvelope, FaInstagram } from "react-icons/fa";
 
 export const Fotter = () => {
   return (
