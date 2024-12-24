@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import logo from "../assets/images/logo.png";
-import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
 
 export const Fotter = () => {
   return (
@@ -32,12 +32,7 @@ export const Fotter = () => {
               Connect with us
             </h3>
             <div className="mt-4 flex justify-left space-x-6">
-              <a
-                
-                className="text-white hover:text-gray-300"
-              >
-                SCT MUN CLUB
-              </a>
+              <a className="text-white hover:text-gray-300">SCT MUN CLUB</a>
               <a
                 href="https://www.instagram.com/sct.mun/"
                 className="text-white hover:text-gray-300"
@@ -56,7 +51,7 @@ export const Fotter = () => {
               >
                 <FaEnvelope size={24} />
               </a>
-            {/*}  <a
+              {/*}  <a
                 href="https://github.com/amithbiju/dhyuthi_5.0"
                 className="text-white hover:text-gray-300"
               >
@@ -89,11 +84,7 @@ export const Fotter = () => {
         </div>
         <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          © 2024{" "}
-          <a  className="hover:underline">
-            SCTMUN
-          </a>
-          . All Rights Reserved.
+          © 2024 <a className="hover:underline">SCTMUN</a>. All Rights Reserved.
         </span>
       </div>
     </footer>
