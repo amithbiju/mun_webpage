@@ -186,7 +186,7 @@ export const Navbar = () => {
                 </Link>
                 {/* <Link
                   activeClass="active"
-                  to="page3"
+                  
                   spy={true}
                   smooth={true}
                   offset={0}
