@@ -80,7 +80,7 @@ export const Navbar = () => {
           {/*}  <Link
             activeClass="active"
             to="page8"
-            spy={true}
+            spy={true}hgj
             smooth={true}
             offset={0}
             duration={500}
@@ -169,11 +169,14 @@ export const Navbar = () => {
                     About
                   </button>
                 </Link>
-                
-                  <a className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700" href="/committees">
-                    Committees
-                  </a>
-                
+
+                <a
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700"
+                  href="/committees"
+                >
+                  Committees
+                </a>
+
                 {/* <Link
                   activeClass="active"
                   
