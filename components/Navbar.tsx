@@ -174,7 +174,21 @@ export const Navbar = () => {
                     Committees
                   </a>
                 
-               
+                {/* <Link
+                  activeClass="active"
+                  
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                  }}
+                >
+                  <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
+                    Events
+                  </button>
+                </Link> */}
                 <Link
                   activeClass="active"
                   to="page4"
