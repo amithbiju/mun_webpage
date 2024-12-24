@@ -26,18 +26,19 @@ Hundreds of delegates from all over India/Kerala are expected to participate in 
             data-nimg="1"
             className=" object-contain rounded-md"
           />
+          <h2 className="font-palanquin justify-start place-items-baseline text-4xl mb-10 font-bold text-[#d6c451] lg:max-w-lg">
+              February 07 | 08 | 09
+            </h2>
         </div>
         <div className="flex m-5 flex-1 flex-col">
-          <h2 className="font-palanquin text-4xl mb-10 font-bold lg:max-w-lg lg:text-start ">
+          <h2 className="font-palanquin text-4xl mb-10 font-bold lg:max-w-lg lg:text-start text-[#d6c451]">
             About SCTMUN
           </h2>
           <p className="mt-4 lg:max-w-lg font-montserrat text-slate-gray text-lg leading-7 text-justify text-[#bbbcbc]">
             {about_event}
           </p>
           <div className="flex-1 flex justify-center items-center ">
-            <h2 className="font-palanquin text-4xl mb-10 font-bold bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent lg:max-w-lg">
-              February 07 | 08 | 09
-            </h2>
+            
           </div>
         </div>
       </section>

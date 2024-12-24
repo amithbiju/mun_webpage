@@ -16,8 +16,8 @@ export const Fotter = () => {
               src={logo}
               alt=""
               loading="lazy"
-              width="45"
-              height="45"
+              width="55"
+              height="55"
               decoding="async"
               data-nimg="1"
               className=" object-contain rounded-md"
@@ -44,12 +44,12 @@ export const Fotter = () => {
               >
                 <FaInstagram size={24} />
               </a>
-              <a
+             {/* <a
                 href="https://in.linkedin.com/company/ieeesctsb"
                 className="text-white hover:text-gray-300"
               >
                 <FaLinkedin size={24} />
-              </a>
+              </a>                                                */}
               <a
                 href="mailto:sctmun2025@gmail.com"
                 className="text-white hover:text-gray-300"

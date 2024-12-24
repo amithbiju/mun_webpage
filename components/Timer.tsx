@@ -80,7 +80,7 @@ export const Timer = () => {
         <span className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl">-</span>
         <div className="flex flex-col items-center">
           <span>{timeLeft.seconds || "0"}</span>
-          <span className="text-xs sm:text-sm md:text-base mt-1 sm:mt-2">
+          <span className="text-xs sm:text-sm md:text-base mt-1 sm:mt-2 ">
             Seconds
           </span>
         </div>
@@ -88,7 +88,7 @@ export const Timer = () => {
 
       <div className="mt-8 text-center">
         {/*<p className="uppercase text-xs sm:text-sm md:text-base">Venue:</p>*/}
-        <p className="text-sm sm:text-base bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent md:text-lg lg:text-xl">
+        <p className="text-4xl mb-10 text-[#d6c451] bg-clip-text md:text-lg lg:text-xl">
         REFLECT . RESOLVE .  REFORM
         </p>
       </div>

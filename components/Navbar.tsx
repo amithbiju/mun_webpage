@@ -4,6 +4,8 @@ import { useState } from "react";
 import { Dialog, DialogPanel, PopoverGroup } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-scroll";
+import Image from "next/image";
+import logo from "../assets/images/logo.png";
 
 export const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,8 +14,20 @@ export const Navbar = () => {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
           <span className="sr-only">Your Company</span>
-        
-            <a className="text-2xl font-semibold leading-6 bg-gradient-to-r from-[#b0b09d] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent" href="/..">
+          <a href="/..">
+          <Image
+              src={logo}
+              alt=""
+              loading="lazy"
+              width="80"
+              height="80"
+              decoding="async"
+              data-nimg="1"
+              className=" object-contain rounded-md"
+            />
+            </a>
+            <a className="text-2xl font-semibold leading-6  bg-clip-text text-[#d6c451] pt-7" href="/..">
+            
               SCTMUN
             </a>
         
@@ -30,12 +44,12 @@ export const Navbar = () => {
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
             
-            <a className="text-sm font-semibold leading-6 text-gray-100" href="/about">
+            <a className="text-sm font-semibold leading-6 text-[#d6c451]" href="/about">
               About
             </a>
           
           
-            <a className="text-sm font-semibold leading-6 text-gray-100" href="/committees">
+            <a className="text-sm font-semibold leading-6 text-[#d6c451]" href="/committees">
               Committees
             </a>
           {/* <Link
@@ -51,7 +65,7 @@ export const Navbar = () => {
             </button>
           </Link> */}
       
-            <a className="text-sm font-semibold leading-6 text-gray-100" href="/schedule">
+            <a className="text-sm font-semibold leading-6 text-[#d6c451]" href="/schedule">
               Schedule
             </a>
         
@@ -80,7 +94,7 @@ export const Navbar = () => {
             </button>
           </Link>              */}            
 
-            <a className="text-sm font-semibold leading-6 text-gray-100" href="/contact">
+            <a className="text-sm font-semibold leading-6 text-[#d6c451]" href="/contact">
               Contact
             </a>
 
@@ -88,7 +102,7 @@ export const Navbar = () => {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
             href="/committees"
-            className="text-sm font-semibold leading-6 text-gray-100"
+            className="text-sm font-semibold leading-6 text-black rounded-lg bg-[#d6c451] py-2 px-4"
           >
             Register Now<span aria-hidden="true">&rarr;</span>
           </a>
