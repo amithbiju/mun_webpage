@@ -1,20 +1,20 @@
-"use client";
-import Day1 from "@/components/util/Day1";
-import React, { useState } from "react";
-import Day2 from "./util/Day2";
-import Day3 from "./util/Day3";
+// "use client";
+// import Day1 from "@/components/util/Day1";
+import React from "react";
+// import Day2 from "./util/Day2";
+// import Day3 from "./util/Day3";
 
 const Event = () => {
-  const [activeTab, setActiveTab] = useState("day2"); // Default to "profile"
+  // const [activeTab, setActiveTab] = useState("day2"); // Default to "profile"
 
-  // Function to handle tab change
-  const handleTabChange = (tab: string) => {
-    setActiveTab(tab);
-  };
+  // // Function to handle tab change
+  // const handleTabChange = (tab: string) => {
+  //   setActiveTab(tab);
+  // };
 
   return (
     <div>
-     {/*} <h2
+      {/*} <h2
         id="page4"
         className="md:flex m-10 md:ml-48 font-palanquin text-4xl mb-10 font-bold lg:max-w-lg lg:text-start "
       >

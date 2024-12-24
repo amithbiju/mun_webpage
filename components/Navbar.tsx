@@ -15,7 +15,7 @@ export const Navbar = () => {
         <div className="flex lg:flex-1">
           <span className="sr-only">Your Company</span>
           <a href="/..">
-          <Image
+            <Image
               src={logo}
               alt=""
               loading="lazy"
@@ -25,12 +25,13 @@ export const Navbar = () => {
               data-nimg="1"
               className=" object-contain rounded-md"
             />
-            </a>
-            <a className="text-2xl font-semibold leading-6  bg-clip-text text-[#d6c451] pt-7" href="/..">
-            
-              SCTMUN
-            </a>
-        
+          </a>
+          <a
+            className="text-2xl font-semibold leading-6  bg-clip-text text-[#d6c451] pt-7"
+            href="/.."
+          >
+            SCTMUN
+          </a>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -43,15 +44,19 @@ export const Navbar = () => {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-            
-            <a className="text-sm font-semibold leading-6 text-[#d6c451]" href="/about">
-              About
-            </a>
-          
-          
-            <a className="text-sm font-semibold leading-6 text-[#d6c451]" href="/committees">
-              Committees
-            </a>
+          <a
+            className="text-sm font-semibold leading-6 text-[#d6c451]"
+            href="/about"
+          >
+            About
+          </a>
+
+          <a
+            className="text-sm font-semibold leading-6 text-[#d6c451]"
+            href="/committees"
+          >
+            Committees
+          </a>
           {/* <Link
             activeClass="active"
             to="page3"
@@ -64,12 +69,15 @@ export const Navbar = () => {
               Events
             </button>
           </Link> */}
-      
-            <a className="text-sm font-semibold leading-6 text-[#d6c451]" href="/schedule">
-              Schedule
-            </a>
-        
-        {/*}  <Link
+
+          <a
+            className="text-sm font-semibold leading-6 text-[#d6c451]"
+            href="/schedule"
+          >
+            Schedule
+          </a>
+
+          {/*}  <Link
             activeClass="active"
             to="page8"
             spy={true}
@@ -81,7 +89,7 @@ export const Navbar = () => {
               Gallery
             </button>
           </Link>     */}
-      {/*    <Link
+          {/*    <Link
             activeClass="active"
             to="page6"
             spy={true}
@@ -92,12 +100,14 @@ export const Navbar = () => {
             <button className="text-sm font-semibold leading-6 text-gray-100">
               FAQs
             </button>
-          </Link>              */}            
+          </Link>              */}
 
-            <a className="text-sm font-semibold leading-6 text-[#d6c451]" href="/contact">
-              Contact
-            </a>
-
+          <a
+            className="text-sm font-semibold leading-6 text-[#d6c451]"
+            href="/contact"
+          >
+            Contact
+          </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
@@ -204,36 +214,7 @@ export const Navbar = () => {
                     Schedule
                   </button>
                 </Link>
-                <Link
-                  activeClass="active"
-                  to="page8"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                  onClick={() => {
-                    setMobileMenuOpen(false);
-                  }}
-                >
-                  <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
-                    Gallery
-                  </button>
-                </Link>
-                <Link
-                  activeClass="active"
-                  to="page6"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                  onClick={() => {
-                    setMobileMenuOpen(false);
-                  }}
-                >
-                  <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
-                    FAQs
-                  </button>
-                </Link>          
+
                 <Link
                   activeClass="active"
                   to="page5"
