@@ -3,7 +3,7 @@ import Image from "next/image";
 import aurora from "/assets/DISEC.png";
 import ignitia from "/assets/UNHRC.png";
 import traverse from "/assets/AIPPM.png";
-
+import test from "../../assets/IP.png";
 const Tracks = () => {
   return (
     <section className="bg-transparent pt-44">
@@ -66,7 +66,7 @@ const Tracks = () => {
           </div>
           <div className="w-full shadow-xl flex flex-col p-4 my-16 rounded-lg hover:scale-105 duration-300">
             <div className="mx-auto mt-[-3rem] bg-white">
-              <Image src={traverse} alt="" width="350" height="80" />
+              <Image src={test} alt="" width="350" height="80" />
             </div>
           </div>
         </div>
