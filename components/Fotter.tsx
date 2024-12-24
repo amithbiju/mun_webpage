@@ -39,7 +39,7 @@ export const Fotter = () => {
               >
                 <FaInstagram size={24} />
               </a>
-             {/* <a
+              {/* <a
                 href="https://in.linkedin.com/company/ieeesctsb"
                 className="text-white hover:text-gray-300"
               >
@@ -59,28 +59,6 @@ export const Fotter = () => {
               </a>  */}
             </div>
           </div>
-          {/* <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0text-gray-400">
-            <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
-                Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
-                Licensing
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline">
-                Contact
-              </a>
-            </li>
-          </ul> */}
         </div>
         <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
