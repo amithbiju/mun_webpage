@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import aurora from "/assets/DISEC.png";
+import aurora from "/assets/DISEC.jpg";
 import ignitia from "/assets/UNHRC.png";
-import traverse from "/assets/AIPPM.png";
+import traverse from "/assets/AIPPM.jpg";
 import test from "../assets/IP.png";
 
 const Tracks = () => {
