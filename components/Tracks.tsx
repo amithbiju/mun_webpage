@@ -25,8 +25,8 @@ const Tracks = () => {
             
             <div className='text-center font-medium'>
                 <p className='text-justify py-2 border-b mx-8 mt-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div> */}
-            {/* <button className="bg-gradient-to-r from-[#d04848] via-[#972929] to-[#9e0101] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black"> 
+            </div> 
+            <button className="bg-gradient-to-r from-[#d04848] via-[#972929] to-[#9e0101] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black"> 
               Registation Closed
             </button>   */}
           </div>
