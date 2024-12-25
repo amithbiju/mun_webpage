@@ -189,37 +189,17 @@ export const Navbar = () => {
                     Events
                   </button>
                 </Link> */}
-                <Link
-                  activeClass="active"
-                  to="page4"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                  onClick={() => {
-                    setMobileMenuOpen(false);
-                  }}
-                >
-                  <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
+          
+                  <a className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700" href="/schedule">
                     Schedule
-                  </button>
-                </Link>
+                  </a>
+           
 
-                <Link
-                  activeClass="active"
-                  to="page5"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                  onClick={() => {
-                    setMobileMenuOpen(false);
-                  }}
-                >
-                  <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
+                
+                  <a className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700" href="/contact">
                     Contact
-                  </button>
-                </Link>
+                  </a>
+                
               </div>
               <div className="py-6">
                 <a

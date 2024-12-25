@@ -8,8 +8,8 @@ const Tracks = () => {
   return (
     <section className="bg-transparent pt-44">
       <div>
-        <h2 className="mt-[-3rem] font-palanquin text-center text-5xl mb-10 font-bold bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent">
-          COMMITTEES
+        <h2 className="mt-[-3rem] font-palanquin text-center text-5xl mb-10 font-bold text-[#d6c451] bg-clip-text">
+           COMMITTEES
         </h2>
 
         <div className="max-w-[1380px] mx-auto grid lg:grid-cols-2 gap-8">
@@ -18,8 +18,8 @@ const Tracks = () => {
               <Image src={aurora} alt="" width="350" height="80" />
             </div>
 
-            {/*  <h2 className='my-16 text-3xl font-bold text-center'>AURORA</h2>
-            <p className='mt-[-3rem] text-center text-2xl font-serif'>$149</p>
+              <h2 className='my-16 text-3xl font-bold text-center text-[#d6c451]'>DISEC</h2>
+            {/* <p className='mt-[-3rem] text-center text-2xl font-serif'>$149</p>
             
             
             <div className='text-center font-medium'>
@@ -35,8 +35,8 @@ const Tracks = () => {
               <Image src={traverse} alt="" width="350" height="80" />
             </div>
 
-            {/*  <h2 className='my-16 text-3xl font-bold text-center'>TRAVERSE</h2>
-            <p className='mt-[-3rem] text-center text-2xl font-serif'>$149</p>
+              <h2 className='my-16 text-3xl font-bold text-center text-[#d6c451]'>AIPPM</h2>
+            {/*<p className='mt-[-3rem] text-center text-2xl font-serif'>$149</p>
             
             
             <div className='text-center font-medium'>
@@ -49,12 +49,12 @@ const Tracks = () => {
           </div>
 
           <div className="w-full shadow-xl flex flex-col p-4 my-16 rounded-lg hover:scale-105 duration-300">
-            <div className="mx-auto mt-[-3rem] bg-white">
+            <div className="mx-auto mt-[-3rem] bg-black">
               <Image src={ignitia} alt="" width="350" height="80" />
             </div>
 
-            {/*  <h2 className='my-16 text-3xl font-bold text-center'>IGNITIA</h2>
-            <p className='mt-[-3rem] text-center text-2xl font-serif'>$149</p>
+              <h2 className='my-16 text-3xl font-bold text-center text-[#d6c451]'>UNHRC</h2>
+            {/* <p className='mt-[-3rem] text-center text-2xl font-serif'>$149</p>
             
             
             <div className='text-center font-medium'>
@@ -65,8 +65,9 @@ const Tracks = () => {
             </button>   */}
           </div>
           <div className="w-full shadow-xl flex flex-col p-4 my-16 rounded-lg hover:scale-105 duration-300">
-            <div className="mx-auto mt-[-3rem] bg-white">
+            <div className="mx-auto mt-[-3rem] bg-black">
               <Image src={test} alt="" width="350" height="80" />
+              <h2 className='my-16 text-3xl font-bold text-center text-[#d6c451]'>IP</h2>
             </div>
           </div>
         </div>
