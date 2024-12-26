@@ -16,7 +16,7 @@ const Event = () => {
     <div>
       <h2
         
-        className="md:flex m-10 md:ml-48 font-palanquin text-4xl mb-10 font-bold lg:max-w-lg lg:text-start "
+        className="md:flex m-10 pt-36 pb-44 md:ml-48 font-palanquin text-4xl mb-10 font-bold lg:max-w-lg lg:text-start "
       >
         Coming soon..
       </h2>

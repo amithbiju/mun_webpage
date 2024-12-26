@@ -109,14 +109,14 @@ export const Navbar = () => {
             Contact
           </a>
         </PopoverGroup>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+       {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
-            href="/committees"
+            href=""
             className="text-sm font-semibold leading-6 text-black rounded-lg bg-[#d6c451] py-2 px-4"
           >
             Register Now<span aria-hidden="true">&rarr;</span>
           </a>
-        </div>
+        </div>  */}
       </nav>
       <Dialog
         open={mobileMenuOpen}
@@ -138,9 +138,7 @@ export const Navbar = () => {
                 setMobileMenuOpen(false);
               }}
             >
-              <button className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700">
-                SCTMUN
-              </button>
+              
             </Link>
             <button
               type="button"
@@ -153,7 +151,7 @@ export const Navbar = () => {
           </div>
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-700">
-              <div className="space-y-2 py-6">
+              <div className="space-y-2 py-6 pt-28">
                 <Link
                   activeClass="active"
                   to="page1"
@@ -204,14 +202,14 @@ export const Navbar = () => {
                   </a>
                 
               </div>
-              <div className="py-6">
+             {/*  <div className="py-6">
                 <a
                   href="/committees"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700"
                 >
                   Register Now
                 </a>
-              </div>
+              </div>  */}
             </div>
           </div>
         </DialogPanel>

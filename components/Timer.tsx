@@ -88,7 +88,7 @@ export const Timer = () => {
 
       <div className="mt-8 text-center">
         {/*<p className="uppercase text-xs sm:text-sm md:text-base">Venue:</p>*/}
-        <p className="text-4xl mb-10 text-[#d6c451] bg-clip-text md:text-lg lg:text-xl">
+        <p className="text-xl mb-10 text-[#d6c451] bg-clip-text md:text-2xl lg:text-4xl">
         REFLECT . RESOLVE .  REFORM
         </p>
       </div>

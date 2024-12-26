@@ -14,32 +14,33 @@ Hundreds of delegates from all over India/Kerala are expected to participate in 
     <section className="padding pt-20">
       <section
         id="page1"
-        className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container text-white"
+        className="flex justify-between pt-24 items-center max-lg:flex-col gap-10 w-full max-container text-white"
       >
-        <div className="flex-1 flex justify-center items-center ">
-          <Image
-            src={logo}
-            alt=""
-            loading="lazy"
-            width="550"
-            height="480"
-            decoding="async"
-            data-nimg="1"
-            className=" object-contain rounded-md"
-          />
+        <div className="flex-1 flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center">
+            <Image
+              src={logo}
+              alt=""
+              loading="lazy"
+              width="350"
+              height="280"
+              decoding="async"
+              data-nimg="1"
+              className="object-contain rounded-md"
+            />
+            <h2 className="font-palanquin mt-4 text-4xl font-bold text-[#d6c451] lg:max-w-lg text-center">
+              February 07 | 08 | 09
+            </h2>
+          </div>
         </div>
         <div className="flex m-5 flex-1 flex-col">
-          <h2 className="font-palanquin text-4xl mb-10 font-bold lg:max-w-lg lg:text-start ">
+          <h2 className="font-palanquin text-4xl mb-10 font-bold lg:max-w-lg lg:text-start text-[#d6c451]">
             About SCTMUN
           </h2>
           <p className="mt-4 lg:max-w-lg font-montserrat text-slate-gray text-lg leading-7 text-justify text-[#bbbcbc]">
             {about_event}
           </p>
-          <div className="flex-1 flex justify-center items-center ">
-            <h2 className="font-palanquin text-4xl mb-10 font-bold bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent lg:max-w-lg">
-              February 07 | 08 | 09
-            </h2>
-          </div>
+          <div className="flex-1 flex justify-center items-center"></div>
         </div>
       </section>
     </section>
