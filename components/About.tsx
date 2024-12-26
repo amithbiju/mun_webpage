@@ -15,20 +15,22 @@ Hundreds of delegates from all over India/Kerala are expected to participate in 
         id="page1"
         className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container text-white"
       >
-        <div className="flex-1 flex justify-center items-center ">
-          <Image
-            src={logo}
-            alt=""
-            loading="lazy"
-            width="350"
-            height="280"
-            decoding="async"
-            data-nimg="1"
-            className=" object-contain rounded-md"
-          />
-          <h2 className="font-palanquin justify-start place-items-baseline text-4xl mb-10 font-bold text-[#d6c451] lg:max-w-lg">
+        <div className="flex-1 flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center">
+            <Image
+              src={logo}
+              alt=""
+              loading="lazy"
+              width="350"
+              height="280"
+              decoding="async"
+              data-nimg="1"
+              className="object-contain rounded-md"
+            />
+            <h2 className="font-palanquin mt-4 text-4xl font-bold text-[#d6c451] lg:max-w-lg text-center">
               February 07 | 08 | 09
             </h2>
+          </div>
         </div>
         <div className="flex m-5 flex-1 flex-col">
           <h2 className="font-palanquin text-4xl mb-10 font-bold lg:max-w-lg lg:text-start text-[#d6c451]">
@@ -37,9 +39,7 @@ Hundreds of delegates from all over India/Kerala are expected to participate in 
           <p className="mt-4 lg:max-w-lg font-montserrat text-slate-gray text-lg leading-7 text-justify text-[#bbbcbc]">
             {about_event}
           </p>
-          <div className="flex-1 flex justify-center items-center ">
-            
-          </div>
+          <div className="flex-1 flex justify-center items-center"></div>
         </div>
       </section>
     </section>
