@@ -111,7 +111,7 @@ export const Navbar = () => {
         </PopoverGroup>
        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
-            href="../"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScqLTBPWRSoXhNPbsIyYqXu9AVgviRQLU_TYRAjvG6vjsQQcA/viewform"
             className="text-sm font-semibold leading-6 text-black rounded-lg bg-[#d6c451] py-2 px-4"
           >
             Register Now<span aria-hidden="true">&rarr;</span>
@@ -204,7 +204,7 @@ export const Navbar = () => {
               </div>
               <div className="py-6">
                 <a
-                  href="../"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScqLTBPWRSoXhNPbsIyYqXu9AVgviRQLU_TYRAjvG6vjsQQcA/viewform"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700"
                 >
                   Register Now
