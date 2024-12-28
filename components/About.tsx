@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import logo from "../assets/images/logo.png";
-//hidden md:blockhehe
+//hidden md:blockheheheh
 const About = () => {
   const about_event = `Model United Nations (MUN) conferences are immersive academic simulations where students represent various countries as delegates, tasked with addressing global issues from the perspective of their assigned nation. Throughout the event, participants engage in debates and discussions following real UN protocols, striving to find solutions to complex problems such as climate change, international security, and human rights. These discussions are organized into sessions within various UN committees, culminating in the drafting and voting on resolutions that propose actionable solutions to the issues at hand.
 
