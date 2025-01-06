@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #FFD700;
+  }
+  
+  /* Center alignment for agenda-section */
+  .agenda-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center content */
+    text-align: center; /* Centers text within the section */
+    padding: 2rem;
+  }
+  
+  .agenda-section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 450;
+    color: #edd341;
+  }
+  
+  .paraagenda {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px; /* Restrict width for readability */
+    color: #fff;
+  }
+  
+  .agenda-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #eec754; /* Gold background */
+    color: #000; /* Black text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .agenda-btn:hover {
+    background-color: #f6bb0a; /* Lighter gold on hover */
+  }
+  
+  /* Center alignment for UNHRC EXECUTIVE BOARD */
+  .executive-board-section {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center-align items horizontally */
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .ueb {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #edd341;
+    font-weight: 450;
+    
+  }
+  
+  /* Reset Flexbox Behavior */
+  .executive-board-section .hover-container {
+    margin-bottom: 2rem; /* Add spacing between hover containers */
+  }
+  
+  /* Hover Effect Container */
+  .hover-container {
+    position: relative;
+    width: 600px; /* Adjust width */
+    height: 300px; /* Adjust height */
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* Image Box */
+  .image-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease; /* Smooth slide effect */
+  }
+  
+  .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Text Box (Initially Hidden) */
+  .text-box {
+    position: absolute;
+    top: 0;
+    left: 100%; /* Hidden offscreen to the right */
+    width: 100%;
+    height: 100%;
+    background-color: #FFD700; /* Gold background */
+    color: #000; /* Black text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: left 0.5s ease; /* Smooth reveal effect */
+    background-color: #000;
+    color: white;
+  }
+  
+  /* Hover Effect */
+  .hover-container:hover .image-box {
+    transform: translateX(-50%); /* Slide the image left */
+  }
+  
+  .hover-container:hover .text-box {
+    left: 0; /* Reveal the text box */
+  }
