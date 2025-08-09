@@ -46,10 +46,10 @@ const Venue = () => {
                 <span className="text-orange-500 mr-2">📞</span>
                 Call
               </h2>
-              <p className="pt-2">Sidharth S</p>
-              <a href="tel:+919074390983">+91 9074390983</a>
               <p className="pt-2">Durgadas D K</p>
               <a href="tel:+917012374443">+91 7012374443</a>
+              <p className="pt-2">Aakash Anand</p>
+              <a href="tel:+919497785568">+91 9497785568</a>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ const page = () => {
   const about_event = `Model United Nations (MUN) conferences are immersive academic simulations where students represent various countries as delegates, tasked with addressing global issues from the perspective of their assigned nation. Throughout the event, participants engage in debates and discussions following real UN protocols, striving to find solutions to complex problems such as climate change, international security, and human rights. These discussions are organized into sessions within various UN committees, culminating in the drafting and voting on resolutions that propose actionable solutions to the issues at hand.
 
 It is monumental and noteworthy that Sree Chitra Thirunal College of Engineering is conducting its first Model United Nations. Being held for the first time ever, this event is aspiring to make a mark in the history of  SCTCE’s MUN chapters. 
-With this conference being auspicious as ever, the inaugural edition of SCT Model United Nations conference will be held from 7th to 9th of February 2025
+With this conference being auspicious as ever, the inaugural edition of SCT Model United Nations conference will be held from 12th to 14th September 2025
 Hundreds of delegates from all over India/Kerala are expected to participate in this propitious event.
 `;
   return (
