@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #0a0a0a;
+  --background: #8A1F1F;
   --foreground: #ededed;
 }
 
@@ -25,7 +25,7 @@ body {
         rgba(249, 234, 234, 0.1) 0 /* Lighter grid pattern for dark theme */
       )
       0 0/70px 70px,
-    #000000; /* Dark background color */
+    #8A1F1F; /* Dark background color */
   font-family: Arial, Helvetica, sans-serif;
 }
 
