@@ -20,8 +20,7 @@ const Event = () => {
       >
         Coming soon..
       </h2>
-      {/* <div className="md:flex m-10 md:ml-48">
-        {/* Sidebar Navigation 
+       <div className="md:flex m-10 md:ml-48">
         <ul className="flex-column space-y space-y-4 text-sm font-medium text-gray-500 dark:text-gray-400 md:me-4 mb-4 md:mb-0">
           <li>
             <button
@@ -61,13 +60,13 @@ const Event = () => {
           </li>
         </ul>
 
-        {/* Main content 
+        
         <div className="pl-12 bg-transparent text-medium text-gray-500  rounded-lg w-full">
           {activeTab === "day1" && <Day1 />}
           {activeTab === "day2" && <Day2 />}
           {activeTab === "day3" && <Day3 />}
         </div>
-      </div>  */}
+      </div>  
     </div>
   );
 };

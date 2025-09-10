@@ -4,41 +4,47 @@ const Day2 = () => {
   const item = [
     {
       id: 1,
-      time: "8:30 am - 9:15 am",
+      time: "07:00 am - 08:30 am",
       event: "Registration",
-      description: "Attendees will check in and register for the workshop.",
+      description:
+        "Delegates should complete registration.",
     },
     {
       id: 2,
-      time: "9:30 am - 12:30 pm",
-      event: "Workshop Session 1",
-      description:
-        "The first session of the workshop, covering initial topics.",
+      time: "09:00 am - 12:00 pm",
+      event: "Committee Session 1",
+      description: "",
     },
     {
       id: 3,
-      time: "12:30 pm - 1:30 pm",
-      event: "Lunch",
-      description: "Lunch break for all attendees.",
+      time: "12:00 pm - 01:00 pm",
+      event: "Lunch Break",
+      description:
+        "",
     },
     {
       id: 4,
-      time: "1:30 pm - 3:30 pm",
-      event: "Workshop Session 2",
-      description:
-        "The second session of the workshop, covering advanced topics.",
+      time: "01:00 pm - 03:30 pm",
+      event: "Committee Session 2",
+      description: "",
     },
     {
       id: 5,
-      time: "3:30 pm - 4:30 pm",
-      event: "Game",
-      description: "Fun and engaging activities for attendees.",
+      time: "03:30 pm - 03:45 pm",
+      event: "Tea Break",
+      description: "",
     },
     {
       id: 6,
-      time: "4:30 pm - 7:30 pm",
-      event: "Culturals and Dinner",
-      description: "Cultural performances followed by dinner.",
+      time: "03:45 pm - 05:00 pm",
+      event: "Committee Session 3",
+      description: "",
+    },
+    {
+      id: 7,
+      time: "05:30 pm - 08:30 pm",
+      event: "Socials",
+      description: "",
     },
   ];
 

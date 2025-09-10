@@ -4,48 +4,36 @@ const Day3 = () => {
   const item = [
     {
       id: 1,
-      time: "9:00 am - 10:00 am",
-      event: "Networking Session",
-      description:
-        "Attendees will have the opportunity to network and interact with each other.",
+      time: "09:00 am - 12:00 pm",
+      event: "Committee Session 4",
+      description: "",
     },
     {
       id: 2,
-      time: "10:00 am - 10:30 am",
-      event: "Break",
-      description: "Short break for refreshments.",
+      time: "12:00 pm - 01:00 pm",
+      event: "Lunch Break",
+      description:
+        "",
     },
     {
       id: 3,
-      time: "10:30 am - 12:30 pm",
-      event: "Workshop & Competitions",
-      description:
-        "An informative workshop and engaging competitions.",
+      time: "01:00 pm - 03:30 pm",
+      event: "Committee Session 5",
+      description: "",
     },
     {
       id: 4,
-      time: "12:30 pm - 1:30 pm",
-      event: "Lunch",
-      description: "Lunch break for all attendees.",
+      time: "03:30 pm - 04:00 pm",
+      event: "Tea Break",
+      description: "",
     },
     {
       id: 5,
-      time: "1:30 pm - 2:30 pm",
-      event: "Influencer Talk Session",
-      description: "A talk session with influencers sharing insights and experiences.",
+      time: "From 4 pm",
+      event: "Valedictory",
+      description: "",
     },
-    {
-      id: 6,
-      time: "2:30 pm - 5:30 pm",
-      event: "Game",
-      description: "Fun games and activities for attendees.",
-    },
-    {
-      id: 7,
-      time: "5:30 pm - 6:30 pm",
-      event: "Prize Distribution and Closing Ceremony",
-      description: "Distribution of prizes followed by the closing ceremony.",
-    },
+    
   ];
 
   return (
