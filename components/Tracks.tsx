@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import aurora from "../assets/";
+import aurora from "../assets/aurora.jpg";
 import ignitia from "/assets/UNHRC.png";
 import traverse from "/assets/AIPPM.png";
 import test from "../assets/IP.png";
