@@ -18,10 +18,10 @@ const [activeTab, setActiveTab] = useState("day2"); // Default to "profile"
         id="page4"
         className="md:flex m-10 md:ml-48 font-palanquin text-4xl mb-10 font-bold lg:max-w-lg lg:text-start "
       >
-        Coming soon...
+        
       </h2>
        <div className="md:flex m-10 md:ml-48">
-         Sidebar Navigation
+         
         <ul className="flex-column space-y space-y-4 text-sm font-medium text-gray-500 dark:text-gray-400 md:me-4 mb-4 md:mb-0">
           <li>
             <button
@@ -61,7 +61,7 @@ const [activeTab, setActiveTab] = useState("day2"); // Default to "profile"
           </li>
         </ul>
 
-       Main content 
+      
         <div className="pl-12 bg-transparent text-medium text-gray-500  rounded-lg w-full">
           {activeTab === "day1" && <Day1 />}
           {activeTab === "day2" && <Day2 />}
