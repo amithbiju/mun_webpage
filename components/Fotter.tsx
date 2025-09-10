@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+
 import { FaEnvelope, FaInstagram } from "react-icons/fa";
 
 export const Fotter = () => {
