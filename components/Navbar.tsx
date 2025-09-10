@@ -80,7 +80,7 @@ export const Navbar = () => {
           {/*}  <Link
             activeClass="active"
             to="page8"
-            spy={true}hgj
+            spy={true}
             smooth={true}
             offset={0}
             duration={500}
