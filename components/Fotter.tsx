@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../assets/images/logo.png";
 import { FaEnvelope, FaInstagram } from "react-icons/fa";
 
 export const Fotter = () => {
@@ -12,7 +11,7 @@ export const Fotter = () => {
             href="#"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
-            <Image
+      {/*      <Image
               src={logo}
               alt=""
               loading="lazy"
@@ -22,7 +21,7 @@ export const Fotter = () => {
               data-nimg="1"
               className=" object-contain rounded-md"
             />
-
+    */}
             <button className="text-2xl font-semibold leading-6 bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d] bg-clip-text text-transparent">
               SCTMUN
             </button>
@@ -62,7 +61,7 @@ export const Fotter = () => {
         </div>
         <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          © 2024 <a className="hover:underline">SCTMUN</a>. All Rights Reserved.
+          © 2025 <a className="hover:underline">SCTMUN</a>. All Rights Reserved.
         </span>
       </div>
     </footer>
