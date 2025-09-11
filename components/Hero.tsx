@@ -12,6 +12,7 @@ const Hero = () => {
             The maiden MUN of SCT College of Engineering
           </span>
         </a>
+
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a
             href="/munrules.pdf"
@@ -31,6 +32,7 @@ const Hero = () => {
               ></path>
             </svg>
           </a>
+          
           {/*<a
             href="#"
             className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
@@ -46,6 +48,15 @@ const Hero = () => {
             Watch video
           </a>*/}
         </div>
+        <h6 className="mb-4 text-xl font-bold tracking-tight leading-snug md:text-2xl lg:text-3xl text-white">
+        Sponsored by
+        <img
+    src="/sponsor.png"
+    alt="Sponsor Logo"
+    className="h-24 w-auto inline-block"
+  />
+
+        </h6>
         <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
           {/* <span className="font-semibold text-gray-400 uppercase">
             SPONSORS
