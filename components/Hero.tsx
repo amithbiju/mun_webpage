@@ -14,10 +14,10 @@ const Hero = () => {
         </a>
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a
-            href="https://forms.gle/bxiHmR29o4vgERHB8"
-            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#d6c451] hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+            href="/munrules.pdf"
+            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-black rounded-lg bg-[#d6c451] hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
           >
-            Register Now
+            Rules of Procedure
             <svg
               className="ml-2 -mr-1 w-5 h-5"
               fill="currentColor"

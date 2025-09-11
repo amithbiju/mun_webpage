@@ -29,7 +29,7 @@ Hundreds of delegates from all over India/Kerala are expected to participate in 
               className="object-contain rounded-md"
             />
             <h2 className="font-palanquin mt-4 text-4xl font-bold text-[#d6c451] lg:max-w-lg text-center">
-              February 07 | 08 | 09
+              September 12 | 13 | 14
             </h2>
           </div>
         </div>

@@ -14,7 +14,7 @@ const Tracks = () => {
 
         <div className="max-w-[1380px] mx-auto grid lg:grid-cols-2 gap-8">
           <div className="w-full shadow-xl flex flex-col p-4 my-16 rounded-lg hover:scale-105 duration-300">
-            <div className="mx-auto mt-[-3rem] bg-white">
+            <div className="mx-auto mt-[-3rem] bg-black">
               <Image src={aurora} alt="" width="350" height="80" />
             </div>
 
@@ -31,7 +31,7 @@ const Tracks = () => {
           </div>
 
           <div className="w-full shadow-xl flex flex-col p-4 my-16 rounded-lg hover:scale-105 duration-300">
-            <div className="mx-auto mt-[-3rem] bg-white">
+            <div className="mx-auto mt-[-3rem] bg-black">
               <Image src={traverse} alt="" width="350" height="80" />
             </div>
 
