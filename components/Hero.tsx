@@ -7,7 +7,7 @@ const Hero = () => {
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-white">
           SCTMUN
         </h1>
-        <a className="inline-flex justify-between items-center mt-8 py-1 px-1 pr-4 mb-7 text-sm  rounded-full text-white bg-gradient-to-r from-[#efb98f] via-[#ef9a06] to-[#f1871d]">
+        <a className="inline-flex justify-between items-center mt-8 py-1 px-1 pr-4 mb-7 text-sm  rounded-full text-black bg-[#d6c451]">
           <span className="text-xl font-medium">
             The maiden MUN of SCT College of Engineering
           </span>
