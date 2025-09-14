@@ -111,10 +111,10 @@ export const Navbar = () => {
         </PopoverGroup>
        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
-            href="/munrules.pdf"
+            href="https://drive.google.com/drive/folders/1Tr-RLw7SpJF3bEpJcis6uCgZevfyxWl0"
             className="text-sm font-semibold leading-6 text-black rounded-lg bg-[#d6c451] py-2 px-4"
           >
-            Rules of Procedure <span aria-hidden="true">&rarr;</span>
+            Certificates <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
       </nav>
@@ -204,10 +204,10 @@ export const Navbar = () => {
               </div>
               <div className="py-6">
                 <a
-                  href="/munrules.pdf"
+                  href="https://drive.google.com/drive/folders/1Tr-RLw7SpJF3bEpJcis6uCgZevfyxWl0"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-700"
                 >
-                  Rules of Procedure
+                  Certificates
                 </a>
               </div>  
             </div>
